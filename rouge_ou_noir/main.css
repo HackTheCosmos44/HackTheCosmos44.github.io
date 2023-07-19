@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    background-image: url(images/fond_ecran_casino.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+header div {
+    width: 50px;
+    aspect-ratio: 1;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.score_noir {
+    background-color: #282834;
+}
+
+.score_rouge {
+    background-color:#af3946;
+}
+
+.score_rouge, .score_noir{
+    color: #e6e0d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border: 4px solid #d0b383;
+}
+
+
+.rouge {
+    background-color:#af3946;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap : 15px;
+    justify-content: center;
+}
+
+button {
+    width: 150px;
+    aspect-ratio: 1;
+    background-color: #282834;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
